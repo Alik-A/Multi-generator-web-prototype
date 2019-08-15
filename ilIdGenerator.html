@@ -1,0 +1,25 @@
+<html>
+	<head>
+		  <link rel="stylesheet" type="text/css" href="generalCss.css">
+		  <link rel="stylesheet" type="text/css" href="generateIdCss.css">
+		  <script type="text/javascript" src="ilIdGeneratorJS.js"></script>
+
+	</head>
+	<body onload="onLoad()">
+
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a class="active" href="#ilIdGenerator">israel id generator</a></li>
+			<li><a href="#passGenerator">password generator</a></li>
+			<li><a href="#about">About</a></li>
+		</ul>
+
+		<div id="interactionWithUser">
+			<input readonly class="output" id="idOutput"></input>
+			<button disabled id="copyToClipBrdBtn" onClick="copyGeneratedToClipBrd()"></button><br>
+			<input class="chkBoxes" id="autoCopyChkBox" type="checkbox" name="property" value="autoCopy"/>
+			<label for="autoCopyChkBox" class="chkBoxesTextLbls">copy generated to clip board<label><br>
+			<button id="generateIdBtn" class="generateBtn" onclick="generateIdNum()">generate</button>
+		</div>
+</body>
+</html>

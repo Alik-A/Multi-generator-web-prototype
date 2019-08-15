@@ -1,0 +1,9 @@
+body {
+	background-color: black;
+}
+
+.generateBtn {
+	background-image: linear-gradient(180deg,  #ffff00, #0099ff);
+}
+
+

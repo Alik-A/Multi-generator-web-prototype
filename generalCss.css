@@ -1,0 +1,106 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 120%;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: #555;
+}
+
+#interactionWithUser {
+	margin: auto;
+	margin-top: 5%;
+	width: 50%;
+	height: 60%;
+	border: 3px solid green;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.generateBtn{
+	margin-left: 25%;
+	width: 50%;
+	height: 50%;
+	font-size: 400%;
+	border-radius: 50%;
+}
+
+.output {
+	margin-top: 1%;
+	background-color: black;
+	color: white;
+	display:inline-block;
+	margin-left: 25%;
+	margin-bottom: 2%;
+	width: 50%;
+	height: 35%;
+	font-size: 400%;
+	text-align: center;
+    border:none;
+	border-radius: 33%;
+	}
+
+#copyToClipBrdBtn {
+	margin-right: 1%;
+	float: center;
+	width:7.5%;
+	height:20%;
+	position: absolute;
+	left: 63%;
+	top: 22.5%;
+	font-size: 400%;
+	border-radius: 10%;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+#copyToClipBrdBtn::after {
+	content: "\1F4CB";
+}
+
+.chkBoxes {
+	vertical-align:middle;
+	text-align: center;
+}
+.chkBoxesTextLbls {
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
